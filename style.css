@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+.wrapper {
+    padding: 20px;
+}
+
+.wrapper input[type="radio"] {
+    display: none;
+}
+
+.content1, .content2 {
+    display: none;
+}
+
+.title {
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.tab-content {
+    border: 1px solid red;
+}
+
+#btn1:checked ~ .content1 {
+    display: block;
+}
+#btn2:checked ~ .content2 {
+    display: block;
+}
+
+
